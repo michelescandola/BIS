@@ -110,5 +110,5 @@ dataH0 <- dataH1 <- data.sim
 dataH0 <- cbind(dataH0, do.call("cbind", output_H0) )
 dataH1 <- cbind(dataH1, do.call("cbind", output_H1) )
 
-write.csv2(dataH0, file = "dataH0.csv")
-write.csv2(dataH1, file = "dataH1.csv")
+write.csv2(dataH0, file = "mixed-design-H0.csv")
+write.csv2(dataH1, file = "mixed-design-H1.csv")
