@@ -77,6 +77,7 @@ for(iteration in 1:2000){
 
 }
 
+
 mean(zzz)# 0.8315
 mean(yyy)# 0.052
 
